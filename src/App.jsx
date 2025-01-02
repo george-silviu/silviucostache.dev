@@ -1,10 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import Hero from "./components/hero/hero.component";
+import Secondary from "./components/secondary/secondary.component";
+
 import "./App.css";
 
 function App() {
-  return <div className="main"> Hello to this awesome website</div>;
+  return (
+    <>
+      <Hero />
+      <Secondary />
+    </>
+  );
 }
 
 export default App;
