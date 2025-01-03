@@ -1,13 +1,11 @@
-import Hero from "./components/hero/hero.component";
-import Secondary from "./components/secondary/secondary.component";
+import Main from "./pages/main.page";
 
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Hero />
-      <Secondary />
+      <Main />
     </>
   );
 }

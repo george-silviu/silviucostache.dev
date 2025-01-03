@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <section className={`hero ${firstLoad ? "animated" : ""}`}>
-      Hi! My name is George-Silviu
+      <h1 className="hero-title">Hi! My name is George-Silviu</h1>
     </section>
   );
 };
